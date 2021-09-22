@@ -1,12 +1,16 @@
+.navbar {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
 .nav-link {
   color: #DADFE5;
   &:hover {
-    color: #FD3378;
+    color: #1e90ff;
   }
 }
 
 .active {
-  color: #FD3378;
+  color: #1e90ff;
 }
 
 .fa-fire {

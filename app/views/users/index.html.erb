@@ -1,7 +1,7 @@
 <%= javascript_pack_tag 'swipe' %>
 
 <div class="user-index-page">
-  <%= render "partial/navbar" %>
+  
 
   <div class="swipe">
     <div class="swipe--status">
@@ -18,7 +18,7 @@
             <%= image_tag user.profile_image.url, class: "profile-img" %>
           <% end %>
           <p class="profile-name">
-            <%= user.name %>
+            <%= link_to user.name, "/users/#{user.id}", class: "Linkpage" %>
           </p>
         </div>
       <% end %>
@@ -30,5 +30,7 @@
       <button id="like"><i class="fas fa-heart fa-2x"></i></button>
     </div>
   </div>
-
+  
+  <%= render "partial/navbar" %>
 </div>
+

@@ -31,6 +31,7 @@
 }
 
 .swipe {
+  margin-top: 10px;
   height: 92vh;
   overflow: hidden;
   display: flex;
@@ -88,7 +89,6 @@
       margin-top: 24px;
       font-size: 20px;
       padding: 0 16px;
-      pointer-events: none;
     }
     img {	
       max-width: 100%;	
@@ -148,4 +148,14 @@
   .swipe {
     height: 640px;
   }
+}
+
+@media (max-height: 800px) {
+  .swipe {
+    height: 85vh;
+  }
+}
+
+.Linkpage {
+  color: white;
 }

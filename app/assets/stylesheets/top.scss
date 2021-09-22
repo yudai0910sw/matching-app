@@ -2,16 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+
 .jumbotron {
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.05) ), url("top3.jpg") center no-repeat;
   background-size: cover;
   height: 100vh;
   padding: 0;
   border-radius: 0;
+  margin-bottom: 0px;
 }
 
 .text-top-color {
-  color: #FD3378;
+  color: #1e90ff;
   font-weight: 600;
   padding: 6px 24px;
 }
@@ -31,7 +33,7 @@
   left: 50%;
   transform: translate(-50%,-50%);
   &__sign-up-btn {
-    background: #FD3378;
+    background: #1e90ff;
     border-radius: 30px;
     padding: 4px;
     white-space: nowrap;
@@ -44,6 +46,10 @@
     border-color: #fff;
     border-width: 2px;
   }
+}
+
+.name {
+  color: white;
 }
 
 @media (max-width: 767px) {
